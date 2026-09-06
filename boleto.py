@@ -106,7 +106,7 @@ def generar_boleto(numero, nombre, url_verificacion=None):
     c.drawCentredString(
         ancho / 2,
         alto - 238,
-        "O $5,000 PESOS EN EFECTIVO"
+        ""
     )
 
     # -----------------------------------------
